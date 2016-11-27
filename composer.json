@@ -1,0 +1,47 @@
+{
+	"name": "medfreeman/wp-gravity-forms-bootstrap",
+	"description": "Bootstrap 3 rows / columns support for Gravity forms",
+	"version": "0.1.0",
+	"type": "wordpress-plugin",
+	"keywords": ["gravity", "forms", "bootstrap"],
+	"homepage": "https://github.com/medfreeman/wp-gravity-forms-bootstrap",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Mehdi Lahlou",
+			"email": "mehdi.lahlou@free.fr",
+			"homepage": "https://github.com/medfreeman",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"antecedent/patchwork": "1.2.*",
+		"phpunit/phpunit"     : "*@stable",
+		"brianium/paratest"   : "dev-master",
+		"10up/wp_mock"        : "dev-master",
+		"squizlabs/php_codesniffer": "*",
+		"wp-coding-standards/wpcs": "*",
+		"frenck/php-compatibility": "*",
+		"dealerdirect/phpcodesniffer-composer-installer": "*"
+	},
+	"autoload": {
+        "psr-4": {
+            "MedFreeman\\WP\\": "includes/"
+        }
+    },
+	"scripts": {
+		"post-install-cmd": "@phpcs_standards",
+		"post-update-cmd" : "@phpcs_standards",
+		"phpcs_standards" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/frenck/php-compatibility"
+	}
+}

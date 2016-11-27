@@ -1,0 +1,70 @@
+/**
+ * Gravity forms bootstrap
+ * https://github.com/medfreeman/wp-gravity-forms-bootstrap
+ *
+ * Copyright (c) 2016 Mehdi Lahlou
+ * Licensed under the GPL-2.0+ license.
+ */
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/type";
+@import "bootstrap/grid";
+@import "bootstrap/forms";
+@import "bootstrap/alerts";
+@import "bootstrap/input-groups";
+
+.gform_fields {
+  @extend .list-unstyled;
+  @extend .row;
+
+  INPUT, SELECT, TEXTAREA {
+    @extend .form-control;
+    // @extend .col-xs-12;
+  }
+
+  TEXTAREA {
+    height: auto;
+  }
+
+}
+
+.gfield_description {
+  @extend .alert;
+}
+
+.validation_error {
+  @extend .alert;
+  @extend .alert-danger;
+
+}
+
+.validation_message {
+  @extend .alert;
+  @extend .alert-success;
+
+}
+
+.gform_button {
+  @extend .btn;
+
+}
+
+.gfield_required {
+  color: $alert-danger-text;
+}
+
+.gform_wrapper UL.gfield_radio li {
+  @extend .radio;
+}
+
+.gform_wrapper UL.gfield_checkbox li {
+  @extend .checkbox;
+}
+
+.gform_validation_container {
+  display: none;
+}
+
+.gfield_error .ginput_container {
+  margin: { bottom: 10px; }
+}
