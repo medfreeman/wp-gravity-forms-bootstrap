@@ -2,7 +2,7 @@
   "name": "gravity-forms-bootstrap",
   "title": "Gravity forms bootstrap",
   "description": "Bootstrap 3 rows / columns support for Gravity forms",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/medfreeman/wp-gravity-forms-bootstrap",
   "repository": {
     "type": "git",

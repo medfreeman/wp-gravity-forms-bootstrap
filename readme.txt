@@ -4,7 +4,7 @@ Donate link:       https://github.com/medfreeman
 Tags: 
 Requires at least: 4.5
 Tested up to:      4.5
-Stable tag:        0.1.0
+Stable tag:        1.0.0
 License:           GPL-2.0+
 License URI:       https://opensource.org/licenses/GPL-2.0
 
