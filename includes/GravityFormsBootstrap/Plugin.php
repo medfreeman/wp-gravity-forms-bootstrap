@@ -64,7 +64,7 @@ class Plugin {
 	public function styles() {
 		$theme_dir = get_stylesheet_directory_uri();
 
-		// wp_enqueue_style( 'gravity-bootstrap', GRAVITY_BOOT_URL . "/assets/css/gravity-forms-bootstrap.css", array(), null, 'all' );
+		// wp_enqueue_style( 'gravity-bootstrap', GRAVITY_BOOT_URL . "/assets/css/gravity-forms-bootstrap.css", array(), null, 'all' );.
 	}
 
 	/**
@@ -79,7 +79,7 @@ class Plugin {
 		?>
 		<div class="updated">
 		  <p>
-		  	<?php _e( '<strong>Gravity forms bootstrap</strong> requires <strong><a href="http://www.gravityforms.com/" target="_blank">Gravity Forms</a><strong> plugin to be installed and activated on your site.', 'gravity-bootstrap', 'gravity-bootstrap' ); ?>
+		  	<?php _esc_html_e( '<strong>Gravity forms bootstrap</strong> requires <strong><a href="http://www.gravityforms.com/" target="_blank">Gravity Forms</a><strong> plugin to be installed and activated on your site.', 'gravity-bootstrap', 'gravity-bootstrap' ); ?>
 		  </p>
 		</div>
 		<?php
