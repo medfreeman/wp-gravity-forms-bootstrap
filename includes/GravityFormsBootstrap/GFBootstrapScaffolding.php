@@ -74,7 +74,7 @@ class GFBootstrapScaffolding {
 	private function add_gf_fields_settings( $position, $form_id ) {
 		if ( 0 === $position ) {
 			$description = 'Row breaks should be placed between fields to split form into separate rows. You do not need to place any row breaks at the beginning or end of the form, only in the middle.';
-			echo `<li class="row_break_description field_setting">' . $description . '</li>'`; // WPCS: xss ok.
+			echo '<li class="row_break_description field_setting">' . $description . '</li>'; // WPCS: xss ok.
 		}
 	}
 

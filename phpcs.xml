@@ -13,7 +13,12 @@
     	<exclude name="PHPCompatibility.PHP.DefaultTimezoneRequired" />
     </rule>
 
-	<rule ref="WordPress"/>
+	<rule ref="WordPress">
+		<!-- This project doesnt use wordpress style filenames -->
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+		<!-- This project doesnt use wordpress style class filenames -->
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+	</rule>
 	<rule ref="Wordpress-Extra">
 		<!-- This project doesnt use wordpress.com functions -->
 		<exclude name="WordPress.VIP.RestrictedFunctions.term_exists" />
