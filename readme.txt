@@ -4,7 +4,7 @@ Donate link:       https://github.com/medfreeman
 Tags: 
 Requires at least: 4.5
 Tested up to:      4.5
-Stable tag:        1.0.0
+Stable tag:        1.0.1
 License:           GPL-2.0+
 License URI:       https://opensource.org/licenses/GPL-2.0
 
@@ -29,6 +29,9 @@ Bootstrap 3 rows / columns support for Gravity forms
 
 == Changelog ==
 
+= 1.0.1 =
+Enforce checks for gravityforms plugin activation before initialization
+
 = 0.1.0 =
 * First release
 
@@ -36,3 +39,6 @@ Bootstrap 3 rows / columns support for Gravity forms
 
 = 0.1.0 =
 First Release
+
+= 1.0.1 =
+Enforce checks for gravityforms plugin activation before initialization

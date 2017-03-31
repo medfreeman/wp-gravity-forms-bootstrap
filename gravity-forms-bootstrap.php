@@ -3,7 +3,7 @@
  * Plugin Name: Gravity forms bootstrap
  * Plugin URI:  https://github.com/medfreeman/wp-gravity-forms-bootstrap
  * Description: Bootstrap 3 rows / columns support for Gravity forms
- * Version:     0.1.0
+ * Version:     1.0.1
  * Author:      Mehdi Lahlou
  * Author URI:  https://github.com/medfreeman
  * Text Domain: gravity-bootstrap

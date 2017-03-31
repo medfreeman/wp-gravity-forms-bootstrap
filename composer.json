@@ -1,7 +1,7 @@
 {
 	"name": "medfreeman/wp-gravity-forms-bootstrap",
 	"description": "Bootstrap 3 rows / columns support for Gravity forms",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "wordpress-plugin",
 	"keywords": ["gravity", "forms", "bootstrap"],
 	"homepage": "https://github.com/medfreeman/wp-gravity-forms-bootstrap",
