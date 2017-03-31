@@ -32,7 +32,6 @@ class Plugin {
 		add_action( 'init', array( $this, 'init' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'styles' ) );
 
-		$this->gf_bootstrap_scaffolding = new GFBootstrapScaffolding();
 	}
 
 	/**
@@ -50,6 +49,7 @@ class Plugin {
 			return;
 		}
 
+		$this->gf_bootstrap_scaffolding = new GFBootstrapScaffolding();
 		$this->gf_bootstrap_scaffolding->init();
 
 		do_action( 'gravityboot_init' );
